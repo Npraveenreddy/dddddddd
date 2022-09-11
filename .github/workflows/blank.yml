@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Setup SSH
-      uses: MrSquaare/ssh-setup-action@v1
+      uses: kevin-leptons/ssh_action@v1
       with:
         host: ubuntu@34.239.134.198
         key: ${{ secrets.SSH_PRIVATE_KEY }}
