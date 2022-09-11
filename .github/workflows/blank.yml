@@ -22,5 +22,5 @@ jobs:
       with:
         host: ubuntu@34.239.134.198
         key: ${{ secrets.SSH_PRIVATE_KEY }}
-        command: ls -l
+        command: mkdir -p praveen
   
