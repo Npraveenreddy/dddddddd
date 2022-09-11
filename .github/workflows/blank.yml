@@ -23,5 +23,5 @@ jobs:
         host: github.com
         private-key: ${{ secrets.SSH_PRIVATE_KEY }}
     - name: Clone repository  
-      run: https://github.com/Npraveenreddy/java-application.git
+      run: git clone https://github.com/Npraveenreddy/java-application.git
   
