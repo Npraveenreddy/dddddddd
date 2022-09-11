@@ -20,8 +20,7 @@ jobs:
     - name: Setup SSH
       uses: MrSquaare/ssh-setup-action@v1
       with:
-        host: ip-172-31-80-219
-        private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-    - name: Clone repository  
-      run: mkdir -p praveen
+        host: ubuntu@34.239.134.198
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        command: ls -l
   
